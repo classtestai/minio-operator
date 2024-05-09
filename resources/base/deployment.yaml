@@ -29,7 +29,7 @@ spec:
             - controller
           resources:
             requests:
-              cpu: 200m
+              cpu: 50m
               memory: 256Mi
               ephemeral-storage: 500Mi
           securityContext:
